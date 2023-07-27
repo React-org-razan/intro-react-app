@@ -1,7 +1,8 @@
 import React from "react";
-const redSquare = () => {
-    return <div className='red'>
+const redSquare = (props) => {
+    return <div className='red' style={{color:props.word}}>
         RedSquare
+        {props.size}
     </div>
 }
 
