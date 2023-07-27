@@ -1,0 +1,23 @@
+.Square{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.blue{
+   background-color: blue;
+    color: #fff;
+    margin-bottom: 20px;
+}
+.green{
+    background-color: Green;
+     color: #fff;
+     margin-bottom: 20px;
+ }
+
+ .red{
+    background-color: red;
+     color: #fff;
+     margin-bottom: 20px;
+ }
